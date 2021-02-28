@@ -1,0 +1,414 @@
+@media screen and (max-width: 1680px) {
+	.header {
+		margin: 50px 100px 0 100px;
+	}
+	.intro {
+	    margin: 123px 0 0 100px;
+	}
+}
+
+@media screen and (max-width: 1366px) {
+	.header {
+		margin: 50px 30px 0 70px;
+	}
+	.intro {
+	    margin: 123px 0 0 70px;
+	}
+	.btn_link {
+		z-index: 3;
+	}
+	.r_img {
+		z-index: -2;
+	}
+	.list {
+		display: none;
+	}
+	.logs {
+		margin-left: auto;
+		margin-right: 50px;
+	}
+	.burger {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 1280px) {
+	.intro {
+		margin: 100px 0 0 70px;
+	}
+	.text_intro h1 {
+		font-size: 40px;
+	}
+	.subtitle_intro {
+		font-size: 18px;
+	}
+	.btn {
+		font-size: 18px;
+	    padding: 17px 29px;
+	}
+	.for_whom {
+		margin: 341px 60px 197px 60px;
+	}
+	.for_whom .cards {
+		justify-content: space-around;
+	}
+	.for_whom .card:nth-child(3) {
+		margin-top: 70px;
+	}
+	.what_is .what_is_cards {
+		justify-content: center;
+	    grid-template-columns: inherit;
+    	grid-template-rows: inherit;
+	}
+	.what_is_card_1 {
+		grid-area: 1 / 1 / 4 / 2;
+	}
+	
+	.what_is_card_2 {
+		grid-area: 1 / 2 / 4 / 3;
+	}
+	
+	.what_is_card_3 {
+		grid-area: 4 / 1 / 5 / 4;
+	}
+	
+	.what_is_card_4 {
+		grid-area: 4 / 2 / 7 / 2;
+	}
+	
+	.what_is_card_5 {
+		grid-area: 5 / 1 / 7 / 2;
+	}
+	
+	.what_is_card_6 {
+		grid-area: 5 / 2 / 7 / 2;
+	}
+	.tariffs_cards {
+		margin-right: 10px;
+	}
+	.tariffs_cards .tariffs_card_3 {
+		margin-top: 150px;
+	}
+	.scripts_info {
+		max-width: 518px;
+		justify-content: center;
+	}
+	.scripts_content_1 .scripts_bloggers_img {
+		margin-right: 0;
+	}
+	.scripts_content_1 {
+		flex-direction: column;
+	}
+	.scripts_content_2 .scripts_bloggers_img {
+		margin-right: 0;
+		margin-left: 0;
+	}
+	.scripts_content_2 {
+		flex-direction: column;
+	}
+	.scripts_content_3 .scripts_bloggers_img {
+		margin-right: 0;
+		margin-left: 0;
+	}
+	.scripts_content_3 {
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.for_whom {
+    	margin: 165px 60px 197px 60px;
+	}
+	.logs {
+		display: none;
+	}
+	.questions_img {
+		display: none;
+	}
+	.r_img {
+	    right: -150px;
+	}
+	.r_img img {
+		width: 70%;
+	}
+	.logs_burger {
+		display: block;
+	}
+	.what_is_cards {
+		margin-top: 80px;
+	}
+	.text_tariffs {
+		margin-bottom: 150px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.tariffs_card_all:not(:first-child) {
+		margin-top: 85px;
+	}
+	.text_intro h1 {
+		line-height: 50px;
+	}
+	.for_whom .cards .card:not(:first-child) {
+		margin-top: 60px;
+	}
+	.r_img {
+		right: -400px;
+		opacity: 0.5;
+	}
+	.for_whom {
+		margin: 150px 60px 197px 60px;
+	}
+	.what_is_cards {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.what_is_card_all:not(:first-child) {
+		margin-top: 30px;
+	}
+	.text_tariffs {
+		margin-bottom: 70px;
+	}
+	.tariffs_cards {
+		flex-direction: column;
+		align-items: center;
+		margin: 0 20px;
+	}
+	.tariffs_card_all {
+	    padding: 35px 20px 20px 20px;
+	    height: auto;
+	}
+	.tariffs img {
+		display: none;
+	}
+	.scripts_text {
+		margin-bottom: 0;
+	}
+	.scripts_bloggers_img {
+		display: none;
+	}
+	.scripts_info {
+		margin-top: 80px;
+	}
+	.questions {
+		margin-top: 120px;
+		margin-right: 30px;
+		margin-left: 30px;
+	}
+	.questions_number {
+		font-size: 46px;
+	}
+	.questions_title {
+		font-size: 19px;
+		font-weight: normal;
+		max-width: 350px;
+	}
+}
+
+@media screen and (max-width: 580px) {
+	.burger_list {
+		width: 100%;
+	}
+	.r_img {
+		display: none;
+	}
+	.intro {
+		margin: 70px 30px 0 40px;
+	}
+	.text_intro h1 {
+		font-size: 34px;
+	}
+	.subtitle_intro {
+		font-size: 16px;
+	}
+	.header {
+		margin: 30px 30px 0 40px;
+	}
+	.for_whom img, .what_is img {
+		display: none;
+	}
+	.for_whom {
+	    margin: 150px 20px 60px 20px;
+	}
+	.for_whom .cards .card {
+		max-width: 390px;
+		margin: 0 20px;
+		height: auto;
+	    padding: 35px 35px 20px 35px;
+	}
+	.scripts_info {
+		margin-left: 60px;
+		margin-right: 30px;
+	}
+	.what_is_card_all {
+		height: auto;
+		max-width: 340px;
+		margin: 0 20px;
+	}
+	.what_is_card_number {
+		right: 50%;
+		transform: translateX(50%);
+	}
+	.what_is_card_all .text_what_is_card {
+	    margin: 30px 20px 30px 20px;
+	}
+	.questions_number {
+		margin-right: 15px;
+		font-size: 30px;
+	}
+	.questions_title {
+		font-size: 16px;
+		max-width: 330px;
+	}
+}
+
+@media screen and (max-width: 411px) {
+	.questions_title {
+		max-width: 235px;
+	}
+	.text_tariffs {
+		margin-bottom: 60px;
+	}
+	.tariffs_card_all:not(:first-child) {
+		margin-top: 60px;
+	}
+	.questions {
+		margin-top: 60px;
+		margin-right: 20px;
+		margin-left: 20px;
+	}
+	.questions_text {
+		margin-bottom: 60px;
+		font-size: 24px;
+	}
+	.questions_active {
+		padding: 15px 10px 15px 10px;
+	}
+	.questions_content {
+	    padding: 20px 10px 20px 20px;
+	}
+	.questions_content_subtitle {
+		font-size: 16px;
+		line-height: 28px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.header {
+		margin: 20px 20px 0 20px;
+	}
+	.intro {
+		margin: 40px 20px 0 20px;
+		display: flex;
+		flex-direction: column;
+	}
+	.text_intro h1 {
+		font-size: 25px;
+		line-height: 40px;
+	}
+	.subtitle_intro {
+		font-size: 15px;
+		line-height: 28px;
+	}
+	.btn {
+		font-size: 16px;
+		padding: 15px 24px;
+	}
+	.t_for_whom {
+		font-size: 24px;
+	}
+	.for_whom .cards {
+		margin-top: 50px;
+	}
+	.for_whom .cards .card {
+		height: auto;
+	    padding: 35px 17px 40px 17px;
+	}
+	.for_whom .cards .card img {
+		display: none;
+	}
+	.for_whom .cards .card:not(:first-child) {
+		margin-top: 30px;
+	}
+	.for_whom {
+	    margin: 80px 20px 60px 20px;
+	}
+	.what_is_text {
+		font-size: 24px;
+	}
+	.what_is_card_img {
+		display: none;
+	}
+	.what_is_cards {
+		margin-top: 60px;
+	}
+	.what_is_card_all {
+		height: auto;
+		width: 280px;
+	}
+	.what_is_card_1 .text_what_is_card {
+	    margin: 40px 20px 40px 20px;
+	}
+	.what_is_card_2 .text_what_is_card {
+	    margin: 40px 20px 40px 20px;
+	}
+	.what_is_card_3 .text_what_is_card {
+	    margin: 40px 20px 40px 20px;
+	}
+	.what_is_card_4 .text_what_is_card {
+	    margin: 40px 20px 40px 20px;
+	}
+	.what_is_card_5 .text_what_is_card {
+	    margin: 40px 20px 40px 20px;
+	}
+	.what_is_card_6 .text_what_is_card {
+	    margin: 40px 20px 40px 20px;
+	}
+	.what_is_card_number {
+		right: 50%;
+    	left: 50%;
+    	transform: translate(-50%);
+	}
+	.tariffs {
+		margin-top: 60px;
+	}
+	.text_tariffs {
+		font-size: 24px;
+	}
+	.tariffs_cards {
+		margin: 0;
+	}
+	.tariffs_card_all {
+		padding: 20px 0 0 0;
+	}
+	.btn_tariffs_card {
+		width: 270px;
+		margin: 42px 10px 10px 10px;
+	}
+	.scripts {
+		margin-top: 60px;
+	}
+	.scripts_text {
+		font-size: 24px;
+	}
+	.scripts_info {
+		margin-left: 60px;
+    	margin-right: 20px;
+	}
+	.scripts_number {
+		font-size: 40px;
+	}
+	.scripts_title {
+		font-size: 22px;
+	}
+	.scripts_info .subtitle_item {
+		font-size: 16px
+	}
+	.burger_list {
+		width: 100%;
+	}
+	.questions_title {
+		max-width: 140px;
+	}
+}
